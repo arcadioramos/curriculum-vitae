@@ -1,6 +1,5 @@
 import Typography from "@mui/material/Typography";
 import { ReactNode } from "react"
-import { useTranslation } from "react-i18next"
 
 interface SectionProps {
     title?: String;
