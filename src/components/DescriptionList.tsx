@@ -1,26 +1,27 @@
-import React from 'react'
 import { SectionProps } from './Section'
-import Typography from '@mui/material/Typography'
 import Box from '@mui/material/Box'
 import List from '@mui/material/List'
 import ListItem from '@mui/material/ListItem'
 import ListItemText from '@mui/material/ListItemText'
+import Typography from '@mui/material/Typography'
 
-interface DescriptionListInterface extends SectionProps {
-    
-}
-
-export default function DescriptionList({ title, icon, description, subtitle }: DescriptionListInterface) {
+export default function DescriptionList({ title, icon, description, subtitle, dateOfWork }: SectionProps) {
     return (
         <Box>
             <Typography variant="subtitle2" align="justify" sx={{ fontWeight: "bold" }}>
                 {subtitle}
             </Typography>
-            <List>
+            {dateOfWork &&
+                <Typography align="justify" sx={{ fontWeight: 400, fontSize: '13px', color: '#00000099' }}>
+                    {dateOfWork}
+                </Typography>
+
+            }
+            <List sx={{ paddingTop: 0 }}>
                 {description?.length !== 0 && description?.map((item, index) => {
                     return (
-                        <ListItem key={`${item}-${index}`}>
-                            <ListItemText primary={item} primaryTypographyProps={{variant: "subtitle2"}}/>
+                        <ListItem key={`${item}-${index}`} sx={{ paddingTop: 0, paddingBottom: 0 }}>
+                            <ListItemText primary={item} primaryTypographyProps={{ variant: "subtitle2" }} />
                         </ListItem>
                     )
                 })}
