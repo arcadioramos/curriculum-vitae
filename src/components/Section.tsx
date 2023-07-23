@@ -9,15 +9,16 @@ export interface SectionProps {
     icon?: ReactNode;
     description?: String[];
     dateOfWork?: string;
+    isDetailsSection?: boolean;
 }
 
-export default function Section({ title, icon, description, subtitle, dateOfWork }: SectionProps) {
+export default function Section({ title, icon, description, subtitle, dateOfWork, isDetailsSection }: SectionProps) {
     return (
-        <Box sx={{MinWidth: 320, maxWidth: 550}}>
+        <Box sx={{MinWidth: 320, maxWidth: isDetailsSection ? 350 : 550}}>
             <Typography variant="h5" align="justify" sx={{fontWeight: "bold", fontSize: '1.2rem'}}>
-                {icon} {title}
+                {icon && icon} {title}
             </Typography>
-            <DescriptionList subtitle={subtitle} description={description} dateOfWork={dateOfWork} />
+            <DescriptionList subtitle={subtitle} description={description} dateOfWork={dateOfWork} isDetailsSection={isDetailsSection} />
         </Box>
     )
 }

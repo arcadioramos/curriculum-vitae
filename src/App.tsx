@@ -12,7 +12,6 @@ import Container from '@mui/material/Container';
 import { useTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import Link from '@mui/material/Link';
-import DetailsSection from './components/DetailsSection';
 
 
 
@@ -27,7 +26,7 @@ function App() {
       <Grid container justifyContent={'center'} sx={{ p: 3 }} spacing={3}>
         <I18nextProvider i18n={i18nInstance}>
           <Grid container direction={'row'} sx={{ backgroundColor: '#ffffff', borderRadius: '10px', padding: paddingPx }}>
-              <ProfileImage />
+            <ProfileImage />
             <Grid item xs={12} sm={12} md={9}>
 
               <Section title={t("title.profile")} icon={<AccountBoxIcon />} description={[t("experience.profile")]} />
@@ -41,12 +40,19 @@ function App() {
                 <Link href="https://github.com/Greenstand/treetracker-admin-client/pull/255">Greenstand/treetracker-admin-client</Link>
               </Grid>
               <Section title={t("title.education")} subtitle={t("subtitle.education")} icon={<SchoolIcon />} dateOfWork='August 2017 — May 2021' />
-              <Section title={t("title.internships")} subtitle={t("subtitle.internships")} description={[t("experience.internship1"),t("experience.internship2"),t("experience.internship3"),t("experience.internship4")]} icon={<GroupIcon />} dateOfWork='January 2020 — June 2020' />
+              <Section title={t("title.internships")} subtitle={t("subtitle.internships")} description={[t("experience.internship1"), t("experience.internship2"), t("experience.internship3"), t("experience.internship4")]} icon={<GroupIcon />} dateOfWork='January 2020 — June 2020' />
 
 
             </Grid>
             <Grid item xs={12} sm={12} md={3}>
-              <DetailsSection title={'Details'}/>
+              <Section title={'Details'} description={['Guaymas, Sonora', 'México', '6221093293', 'arcadioramosisw@gmail.com']} isDetailsSection={true} />
+              <Section title={'Links'} />
+              <Grid container direction='column' sx={{ mb: 2 }}>
+                <Link href="https://github.com/arcadioramos" sx={{ textDecoration: 'none' }} >Github</Link>
+                <Link href="https://www.linkedin.com/in/arcadio-ramos-802116184/" sx={{ textDecoration: 'none' }}>LinkedIn</Link>
+              </Grid>
+              <Section title={'Skills'} description={['Javascript', 'Typescript', 'Kotlin', 'React', 'Java', `Node.js`, 'CSS', 'HTML', 'MySQL', 'DynamoDB', 'Micronaut', 'Storybook', 'MaterialUI']} isDetailsSection={true} />
+              <Section title={'Languages'} description={['Spanish', 'English']} isDetailsSection={true}/>
             </Grid>
           </Grid>
         </I18nextProvider>
