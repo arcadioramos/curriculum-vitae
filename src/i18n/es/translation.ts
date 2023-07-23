@@ -52,6 +52,7 @@ export const i18nEspanol = {
     dateOfWork: {
         encora: 'Enero 2022 — Actualidad',
         apprentice: 'Septiembre 2021 — Enero 2022',
-        education: 'Enero 2020 — Junio 2020'
+        education: 'Agosto 2017 — Enero 2021',
+        sofe: 'Enero 2020 — Junio 2020'
     }
 }

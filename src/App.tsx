@@ -39,8 +39,8 @@ function App() {
                 <Link href="https://github.com/Greenstand/treetracker-web-map-client/pull/373">Greenstand/treetracker-web-map-client</Link>
                 <Link href="https://github.com/Greenstand/treetracker-admin-client/pull/255">Greenstand/treetracker-admin-client</Link>
               </Grid>
-              <Section title={t("title.education")} subtitle={t("subtitle.education")} icon={<SchoolIcon />} dateOfWork='August 2017 — May 2021' />
-              <Section title={t("title.internships")} subtitle={t("subtitle.internships")} description={[t("experience.internship1"), t("experience.internship2"), t("experience.internship3"), t("experience.internship4")]} icon={<GroupIcon />} dateOfWork={t("dateOfWork.education")} />
+              <Section title={t("title.education")} subtitle={t("subtitle.education")} icon={<SchoolIcon />}dateOfWork={t("dateOfWork.education")} />
+              <Section title={t("title.internships")} subtitle={t("subtitle.internships")} description={[t("experience.internship1"), t("experience.internship2"), t("experience.internship3"), t("experience.internship4")]} icon={<GroupIcon />} dateOfWork={t("dateOfWork.sofe")} />
 
 
             </Grid>
