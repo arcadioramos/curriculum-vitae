@@ -31,28 +31,28 @@ function App() {
 
               <Section title={t("title.profile")} icon={<AccountBoxIcon />} description={[t("experience.profile")]} />
 
-              <Section title={t("title.experience")} icon={<BusinessCenterIcon />} subtitle={t("subtitle.encora")} description={[t("experience.encora1"), t("experience.encora2"), t("experience.encora3"), t("experience.encora4"), t("experience.encora5")]} dateOfWork='January 2022 — Present' />
+              <Section title={t("title.experience")} icon={<BusinessCenterIcon />} subtitle={t("subtitle.encora")} description={[t("experience.encora1"), t("experience.encora2"), t("experience.encora3"), t("experience.encora4"), t("experience.encora5")]} dateOfWork={t("dateOfWork.encora")}/>
 
-              <Section subtitle={t("subtitle.apprentice")} description={[t("experience.apprentice1"), t("experience.apprentice2"), t("experience.apprentice3"), t("experience.apprentice4")]} dateOfWork='September 2021 — January 2022' />
+              <Section subtitle={t("subtitle.apprentice")} description={[t("experience.apprentice1"), t("experience.apprentice2"), t("experience.apprentice3"), t("experience.apprentice4")]} dateOfWork={t("dateOfWork.apprentice")} />
               <Grid container direction='column' marginLeft={{ xs: 2, sm: 5 }}>
                 <Link href="https://github.com/Greenstand/treetracker-web-map-client/pull/378">Greenstand/treetracker-web-map-client</Link>
                 <Link href="https://github.com/Greenstand/treetracker-web-map-client/pull/373">Greenstand/treetracker-web-map-client</Link>
                 <Link href="https://github.com/Greenstand/treetracker-admin-client/pull/255">Greenstand/treetracker-admin-client</Link>
               </Grid>
               <Section title={t("title.education")} subtitle={t("subtitle.education")} icon={<SchoolIcon />} dateOfWork='August 2017 — May 2021' />
-              <Section title={t("title.internships")} subtitle={t("subtitle.internships")} description={[t("experience.internship1"), t("experience.internship2"), t("experience.internship3"), t("experience.internship4")]} icon={<GroupIcon />} dateOfWork='January 2020 — June 2020' />
+              <Section title={t("title.internships")} subtitle={t("subtitle.internships")} description={[t("experience.internship1"), t("experience.internship2"), t("experience.internship3"), t("experience.internship4")]} icon={<GroupIcon />} dateOfWork={t("dateOfWork.education")} />
 
 
             </Grid>
             <Grid item xs={12} sm={12} md={3}>
-              <Section title={'Details'} description={['Guaymas, Sonora', 'México', '6221093293', 'arcadioramosisw@gmail.com']} isDetailsSection={true} />
-              <Section title={'Links'} />
+              <Section title={t("title.details")} description={['Guaymas, Sonora', 'México', '6221093293', 'arcadioramosisw@gmail.com']} isDetailsSection={true} />
+              <Section title={t("title.links")} />
               <Grid container direction='column' sx={{ mb: 2 }}>
                 <Link href="https://github.com/arcadioramos" sx={{ textDecoration: 'none' }} >Github</Link>
                 <Link href="https://www.linkedin.com/in/arcadio-ramos-802116184/" sx={{ textDecoration: 'none' }}>LinkedIn</Link>
               </Grid>
-              <Section title={'Skills'} description={['Javascript', 'Typescript', 'Kotlin', 'React', 'Java', `Node.js`, 'CSS', 'HTML', 'MySQL', 'DynamoDB', 'Micronaut', 'Storybook', 'MaterialUI']} isDetailsSection={true} />
-              <Section title={'Languages'} description={['Spanish', 'English']} isDetailsSection={true}/>
+              <Section title={t("title.skills")} description={['Javascript', 'Typescript', 'Kotlin', 'React', 'Java', `Node.js`, 'CSS', 'HTML', 'MySQL', 'DynamoDB', 'Micronaut', 'Storybook', 'MaterialUI']} isDetailsSection={true} />
+              <Section title={t("title.languages")} description={[t("language.spanish"), t("language.english")]} isDetailsSection={true}/>
             </Grid>
           </Grid>
         </I18nextProvider>

@@ -3,41 +3,55 @@ export const i18nEspanol = {
         experience: "Historial de empleo",
         education: "Educación",
         profile: "Perfil",
-        internships: "Pasantías"
+        internships: "Pasantías",
+        details: "Detalles",
+        links: "Links",
+        skills: "Habilidades",
+        languages: "Idiomas"
     },
     subtitle: {
-        encora: `Full stack developer en Encora, Remote`,
-        apprentice: `Software Developer Apprentice en Encora, Remote`,
+        encora: `Full stack developer en Encora, Remoto`,
+        apprentice: `Software Developer Apprentice en Encora, Remoto`,
         education: `Ingeniería en software, ITSON , Heroica Guaymas`,
-        internships: `Students of excellence at Nearsoft, Remote`
+        internships: `Students of excellence en Nearsoft, Remoto`
     },
     experience: {
-        profile: `Self-motivated to keep learning stuff related to software and open
-        to learning about new technologies and motivated to get things
-        done, I have prior experience working with Typescript and Kotlin on
-        the frontend and backend. I have been part of different developer
-        programs where I have had the opportunity to work within a team
-        and been encouraged to contribute to open-source projects as well as
-        many other things that are helping me to become a better software
-        developer.`,
-        encora1: `• Creation and maintenance of software to support a new
-        product, including: Micro-frontend UI, several APIs, eventing and
-        third-party tool integrations.`,
-        encora2: `• Development of UI based on Figma designs.`,
-        encora3: `• Creation of  CRUD endpoints.`,
-        encora4: `• AWS event consuming with lambdas which triggers API calls.`,
-        encora5: `Tech stack: \n
-        React with Typescript, Kotlin with Micronaut, AWS(EC2, Lambda,
+        profile: `Motivado a seguir aprendiendo cosas relacionadas al software 
+        y abierto a aprender acerca de tecnologías nuevas, enfocado en culminar
+        las tareas que comienzo, tengo experiencia trabajando con Typescript y
+        Kotlin esto en frontend y backend. He formado parte de diferentes programas 
+        de desarrollo de software donde he tenido la oportunidad de trabajar en equipo
+        y motivado a contribuir a proyectos open-source también como otras cosas que 
+        me han ayudado a mejorar como desarrollador de software.`,
+        encora1: `• Creación y mantenimiento de software para soportar un prooducto nuevo,
+        incluyendo Micro frontend UI, bastantes API', eventos de AWS e integración de
+        aplicaciones de terceros.`,
+        encora2: `• Desarrollo de UI basado en diseños Figma.`,
+        encora3: `• Creación de endpoints CRUD.`,
+        encora4: `• Eventos de AWS consumidos mediante lambdas que hacen llamadas a API.`,
+        encora5: `Stack de tecnologías: \n
+        React con Typescript, Kotlin con Micronaut, AWS(EC2, Lambda,
         DynamoDB, SQS/SNS)`,
-        apprentice1: `• Received training on fundamental topics regarding computer
-        science, learning mindset, agile methodology, technology, and
-        good programming practices.`,
-        apprentice2: `• Encouraged to do research and to perform lightning talks.`,
-        apprentice3: `• Worked on a project with previous work in which we continued the
-        development of new features of their appointment and schedule logic`,
-        apprentice4: `• Collaborated on several open-source projects:`,
-        internship1: `• Create react app and consume API attending specific requirements by the staff with due time.`,
-        internship2: `• English interviews to improve English skills`,
-        internship3: `• Solve algorithms in hacker rank.`,
-        internship4: `• 2nd place winner of the program.`,    }
+        apprentice1: `• Recibí entrenamiento en temas fundamentales acerca de la ciencia de 
+        la computación, mentalidad de aprendizaje, metodologías ágiles, tecnología en general
+        y buenas prácticas de programación.`,
+        apprentice2: `• Motivado a hacer investigaciones e impartir lightning talks.`,
+        apprentice3: `• Trabajé en un proyecto con trabajo  previo en el cuál continuamos con el
+        desarrollo de nuevas features de sus citas y lógica de calendario para un consultorio dental.`,
+        apprentice4: `• Colaboré en diversos proyectos open-source:`,
+        internship1: `• Crear aplicación con react y consumir API atendiendo requerimientos específicos proporcionados
+        por el staff con fecha de entrega.`,
+        internship2: `• Entrevistas en inglés para mejorar las habilidades de comunicación en inglés.`,
+        internship3: `• Resolver algoritmos en hacker rank.`,
+        internship4: `• Ganador del 2do lugar del programa.`,
+    },
+    language: {
+        spanish: 'Español',
+        english: 'Inglés'
+    },
+    dateOfWork: {
+        encora: 'Enero 2022 — Actualidad',
+        apprentice: 'Septiembre 2021 — Enero 2022',
+        education: 'Enero 2020 — Junio 2020'
+    }
 }

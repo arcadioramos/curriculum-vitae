@@ -3,7 +3,11 @@ export const i18nEnglish = {
         experience: "Employment history",
         education: "Education",
         profile: "Profile",
-        internships: "Internships"
+        internships: "Internships",
+        details: "Details",
+        links: "Links",
+        skills: "Skills",
+        languages: "Languages"
     },
     subtitle: {
         encora: `Full stack developer at Encora, Remote`,
@@ -40,5 +44,14 @@ export const i18nEnglish = {
         internship2: `• English interviews to improve English skills`,
         internship3: `• Solve algorithms in hacker rank.`,
         internship4: `• 2nd place winner of the program.`,
+    },
+    language: {
+        spanish: 'Spanish',
+        english: 'English'
+    },
+    dateOfWork: {
+        encora: 'January 2022 — Present',
+        apprentice: 'September 2021 — January 2022',
+        education: 'January 2020 — June 2020'
     }
 }
