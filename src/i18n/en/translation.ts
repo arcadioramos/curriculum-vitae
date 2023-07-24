@@ -52,7 +52,7 @@ export const i18nEnglish = {
     dateOfWork: {
         encora: 'January 2022 — Present',
         apprentice: 'September 2021 — January 2022',
-        education: 'August 2017 — January 2021',
+        education: 'August 2017 — May 2021',
         sofe: 'January 2020 — June 2020'
     }
 }
