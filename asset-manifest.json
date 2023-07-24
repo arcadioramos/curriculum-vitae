@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "./static/css/main.5050cf57.css",
-    "main.js": "./static/js/main.6ea5c727.js",
-    "static/js/787.6bc6f9d2.chunk.js": "./static/js/787.6bc6f9d2.chunk.js",
-    "static/media/CV_PROFILE_PIC.png": "./static/media/CV_PROFILE_PIC.28a8bf0510415cead472.png",
-    "index.html": "./index.html",
-    "main.5050cf57.css.map": "./static/css/main.5050cf57.css.map",
-    "main.6ea5c727.js.map": "./static/js/main.6ea5c727.js.map",
-    "787.6bc6f9d2.chunk.js.map": "./static/js/787.6bc6f9d2.chunk.js.map"
+    "main.css": "/www.arcadioramos.com/static/css/main.5050cf57.css",
+    "main.js": "/www.arcadioramos.com/static/js/main.fb088cf2.js",
+    "static/js/787.6bc6f9d2.chunk.js": "/www.arcadioramos.com/static/js/787.6bc6f9d2.chunk.js",
+    "static/media/CV_PROFILE_PIC.png": "/www.arcadioramos.com/static/media/CV_PROFILE_PIC.28a8bf0510415cead472.png",
+    "index.html": "/www.arcadioramos.com/index.html",
+    "main.5050cf57.css.map": "/www.arcadioramos.com/static/css/main.5050cf57.css.map",
+    "main.fb088cf2.js.map": "/www.arcadioramos.com/static/js/main.fb088cf2.js.map",
+    "787.6bc6f9d2.chunk.js.map": "/www.arcadioramos.com/static/js/787.6bc6f9d2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5050cf57.css",
-    "static/js/main.6ea5c727.js"
+    "static/js/main.fb088cf2.js"
   ]
 }
